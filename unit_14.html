@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 14</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Unit 14. Практика по массивам - получаем прогноз погоды по API</h1>
+            <h2><a href="https://itgid.info/js" target="_blank">JavaScript v.2.0 - курс Лущенко Александра</a></h2>
+        </header>
+
+        <main>
+            <!-- Шильдик -->
+            <div class="nameplate">
+
+                <!-- Локация -->
+                <div class="location">
+                    <select name="list-capitals"></select>
+                </div>
+
+                <!-- текущая ситуация -->
+                <div class="current_situation">
+                    <!-- Текущая облачность -->
+                    <div class="current_clouds">
+                        <div class="icon_cloud_max">
+                            <img src="https://abali.ru/wp-content/uploads/2013/07/peremennaya_oblachnost.png" alt="">
+                        </div>
+                        <div class="description_clouds">Облачно</div>
+                    </div>
+                    <div class="current_temperature">29 С</div>
+                    <!-- Дополнительные параметры -->
+                    <div>
+                        <ul class="current_advanced_setting">
+                            <li class="pressure">Давление</li>
+                            <li class="humidity">Влажность</li>
+                            <li class="wind">Скорость ветра</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- прогноз -->
+                <div>
+                    <ul class="meteoconditions">
+                        <li>
+                            <div class="weekday">пн</div>
+                            <div class="icon_cloud_min">
+                                <img src="https://abali.ru/wp-content/uploads/2013/07/groza-thunder-lightning-storm-icon.png"
+                                    alt="">
+                            </div>
+                            <div class="temperature_forecast">29 С</div>
+                        </li>
+                        <li>
+                            <div class="weekday">вт</div>
+                            <div class="icon_cloud_min">
+                                <img src="https://abali.ru/wp-content/uploads/2013/07/solnechno-sunny-icon.png" alt="">
+                            </div>
+                            <div class="temperature_forecast">29 С</div>
+                        </li>
+                        <li>
+                            <div class="weekday">ср</div>
+                            <div class="icon_cloud_min">
+                                <img src="https://abali.ru/wp-content/uploads/2013/07/sne-snow-icon.png" alt="">
+                            </div>
+                            <div class="temperature_forecast">29 С</div>
+                        </li>
+                        <li>
+                            <div class="weekday">чт</div>
+                            <div class="icon_cloud_min">
+                                <img src="https://abali.ru/wp-content/uploads/2013/07/oblachno.png" alt="">
+                            </div>
+                            <div class="temperature_forecast">29 С</div>
+                        </li>
+                        <li>
+                            <div class="weekday">пт</div>
+                            <div class="icon_cloud_min">
+                                <img src="https://abali.ru/wp-content/uploads/2013/07/sunny-partly-icon.png" alt="">
+                            </div>
+                            <div class="temperature_forecast">29 С</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="copiright">Студент: Фесенко Борис</div>
+        </footer>
+
+    </div>
+
+
+    <script src="unit_14.js"></script>
+</body>
+
+</html>
