@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container  {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(43, 100, 120);
+    color: white;
+}
+
+header{
+    display: block;
+    text-align: center;
+    /* color: white; */
+}
+
+a{
+    color:#FF0000;
+    text-decoration:none
+}
+
+a:active{
+    color:rgb(255, 238, 0);
+    text-decoration:none
+}
+
+a:hover{
+    color:#fb01da;
+    text-decoration:none
+}
+
+a:visited{
+    color:#01fb37;
+    text-decoration:none
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 36px;
+
+}
+
+h2  {
+    font-size: 24px;
+}
+
+main{
+    display: block;
+}
+
+.nameplate{
+    display: block;
+    width: 490px;
+    margin: 0 auto;
+    background: rgb(1, 58, 77);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(85, 128, 151);
+    border-width: 5px;
+
+    font-family: sans-serif;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px auto;    
+}
+
+select{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align-last: center;
+    color: white;
+    max-width: 100%; 
+    background: rgb(1, 58, 77);
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.current_situation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.current_clouds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+.current_temperature{
+    font-size: 30px;
+    font-weight: 500;  
+}
+
+.current_advanced_setting{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.meteoconditions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    list-style: none;
+    padding-inline-start: 0;
+    text-transform: uppercase;
+
+}
+
+.meteoconditions li{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.icon_cloud_max img{
+    width: 100px;  
+}
+
+.icon_cloud_min img{
+    width: 60px;
+}
+
+.meteoconditions li{
+
+}
+.focus{
+color: yellow;
+/* font-style: italic; */
+/* text-decoration: underline; */
+}
+
+.active{
+    color: yellow;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    }
+       
+
+
