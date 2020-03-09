@@ -186,7 +186,7 @@ function selectedСapital() {
     }
 
     // формирование строки с параметрами
-    apiCalls = `http://api.openweathermap.org/data/2.5/forecast?id=${selectedСapitalId}&appid=${apiKey}`;
+    apiCalls = `https://api.openweathermap.org/data/2.5/forecast?id=${selectedСapitalId}&appid=${apiKey}`;
     weatherForecast(apiCalls);
 }
 
